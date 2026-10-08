@@ -1,0 +1,41 @@
+{
+  "name": "@nexus/desktop",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@nexus/core": "workspace:*",
+    "@nexus/application": "workspace:*",
+    "@nexus/agent": "workspace:*",
+    "@nexus/ui": "workspace:*",
+    "@tauri-apps/api": "^2.12.1",
+    "@xyflow/react": "12.12.0",
+    "zustand": "5.0.15",
+    "allotment": "^1.20.5",
+    "lucide-react": "^1.53.0",
+    "@monaco-editor/react": "^4.7.0",
+    "pdfjs-dist": "^5.0.0",
+    "three": "^0.186.0",
+    "@react-three/fiber": "^9.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.0.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.12.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.4",
+    "@vitejs/plugin-react": "^6.1.2",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.186.0",
+    "typescript": "^7.0.2"
+  }
+}

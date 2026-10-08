@@ -1,0 +1,27 @@
+/**
+ * NEXUS-232 UI Density Tokens
+ */
+
+[data-density='compact'] {
+  --nexus-spacing: 3px;
+  --nexus-font-size-xs: 10px;
+  --nexus-font-size-sm: 11px;
+  --nexus-font-size-base: 12px;
+  --nexus-font-size-lg: 13px;
+  --nexus-row-height: 24px;
+  --nexus-header-height: 32px;
+  --nexus-input-height: 26px;
+  --nexus-padding-panel: 6px;
+}
+
+[data-density='comfortable'] {
+  --nexus-spacing: 6px;
+  --nexus-font-size-xs: 11px;
+  --nexus-font-size-sm: 12px;
+  --nexus-font-size-base: 14px;
+  --nexus-font-size-lg: 16px;
+  --nexus-row-height: 32px;
+  --nexus-header-height: 40px;
+  --nexus-input-height: 34px;
+  --nexus-padding-panel: 12px;
+}

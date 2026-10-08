@@ -1,0 +1,54 @@
+/**
+ * NEXUS-232 Design System: Global CSS Custom Properties
+ * 
+ * Cold, precise scientific instrumentation aesthetic.
+ * All UI components reference these tokens. Never hardcode colors.
+ */
+
+:root {
+  /* Default Base Palette: Deep Void Cold Technical */
+  --nexus-bg: #090c10;
+  --nexus-surface: #0e131b;
+  --nexus-surface-2: #141b24;
+  --nexus-surface-hover: #1b2430;
+  --nexus-border: #1e293b;
+  --nexus-border-glow: rgba(56, 189, 248, 0.25);
+
+  --nexus-text: #f1f5f9;
+  --nexus-text-muted: #94a3b8;
+  --nexus-text-dim: #64748b;
+
+  /* Accent: Scientific Precision Cyan/Blue */
+  --nexus-accent: #38bdf8;
+  --nexus-accent-hover: #0ea5e9;
+  --nexus-accent-subtle: rgba(56, 189, 248, 0.12);
+
+  /* Epistemic Status Tokens */
+  --nexus-valid: #10b981;
+  --nexus-valid-subtle: rgba(16, 185, 129, 0.15);
+  --nexus-in-review: #f59e0b;
+  --nexus-in-review-subtle: rgba(245, 158, 11, 0.15);
+  --nexus-blocked: #f43f5e;
+  --nexus-blocked-subtle: rgba(244, 63, 94, 0.15);
+  --nexus-undetermined: #64748b;
+  --nexus-undetermined-subtle: rgba(100, 116, 139, 0.15);
+  --nexus-invalid: #ef4444;
+  --nexus-invalid-subtle: rgba(239, 68, 68, 0.15);
+
+  /* Geometry & Typography */
+  --nexus-radius: 4px;
+  --nexus-radius-sm: 2px;
+  --nexus-radius-md: 6px;
+  --nexus-radius-lg: 8px;
+
+  --nexus-spacing: 4px;
+  --nexus-font-sans: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --nexus-font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --nexus-scale: 1.0;
+  --nexus-panel-opacity: 0.95;
+
+  /* Subtle Technical Shadows */
+  --nexus-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --nexus-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --nexus-shadow-glow: 0 0 15px rgba(56, 189, 248, 0.15);
+}

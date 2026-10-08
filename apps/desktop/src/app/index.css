@@ -1,0 +1,55 @@
+@import "tailwindcss";
+@import "allotment/dist/style.css";
+@import "@xyflow/react/dist/style.css";
+@import "@nexus/ui/theme/tokens.css";
+@import "@nexus/ui/theme/themes.css";
+@import "@nexus/ui/theme/density.css";
+
+/* Scientific Workspace Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: var(--nexus-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--nexus-border);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--nexus-accent-subtle);
+}
+
+/* Allotment Dark Technical Customization */
+.allotment-split-view-separator {
+  background-color: var(--nexus-border) !important;
+  transition: background-color 0.15s ease;
+}
+.allotment-split-view-separator:hover {
+  background-color: var(--nexus-accent) !important;
+}
+
+/* XYFlow Canvas Styling */
+.react-flow__background {
+  background-color: var(--nexus-bg) !important;
+}
+.react-flow__controls {
+  background-color: var(--nexus-surface) !important;
+  border: 1px solid var(--nexus-border) !important;
+  box-shadow: var(--nexus-shadow) !important;
+}
+.react-flow__controls-button {
+  background-color: var(--nexus-surface) !important;
+  border-bottom: 1px solid var(--nexus-border) !important;
+  color: var(--nexus-text-muted) !important;
+}
+.react-flow__controls-button:hover {
+  background-color: var(--nexus-surface-hover) !important;
+  color: var(--nexus-accent) !important;
+}
+.react-flow__minimap {
+  background-color: var(--nexus-surface) !important;
+  border: 1px solid var(--nexus-border) !important;
+  border-radius: var(--nexus-radius) !important;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "nexus-232-root",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.10.1",
+  "scripts": {
+    "dev": "pnpm --filter @nexus/desktop dev",
+    "build": "pnpm -r run build",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}

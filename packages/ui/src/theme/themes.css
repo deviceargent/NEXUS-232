@@ -1,0 +1,63 @@
+/**
+ * NEXUS-232 Themes Palette Presets
+ */
+
+[data-theme='light'] {
+  --nexus-bg: #f8fafc;
+  --nexus-surface: #ffffff;
+  --nexus-surface-2: #f1f5f9;
+  --nexus-surface-hover: #e2e8f0;
+  --nexus-border: #cbd5e1;
+  --nexus-border-glow: rgba(2, 132, 199, 0.2);
+
+  --nexus-text: #0f172a;
+  --nexus-text-muted: #475569;
+  --nexus-text-dim: #94a3b8;
+
+  --nexus-accent: #0284c7;
+  --nexus-accent-hover: #0369a1;
+  --nexus-accent-subtle: rgba(2, 132, 199, 0.1);
+
+  --nexus-valid: #059669;
+  --nexus-valid-subtle: rgba(5, 150, 105, 0.1);
+  --nexus-in-review: #d97706;
+  --nexus-in-review-subtle: rgba(217, 119, 6, 0.1);
+  --nexus-blocked: #e11d48;
+  --nexus-blocked-subtle: rgba(225, 29, 72, 0.1);
+  --nexus-undetermined: #64748b;
+  --nexus-undetermined-subtle: rgba(100, 116, 139, 0.1);
+  --nexus-invalid: #dc2626;
+  --nexus-invalid-subtle: rgba(220, 38, 38, 0.1);
+
+  --nexus-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --nexus-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
+  --nexus-shadow-glow: 0 0 12px rgba(2, 132, 199, 0.12);
+}
+
+[data-theme='high-contrast'] {
+  --nexus-bg: #000000;
+  --nexus-surface: #0a0a0a;
+  --nexus-surface-2: #141414;
+  --nexus-surface-hover: #222222;
+  --nexus-border: #333333;
+  --nexus-border-glow: rgba(56, 189, 248, 0.4);
+
+  --nexus-text: #ffffff;
+  --nexus-text-muted: #a3a3a3;
+  --nexus-text-dim: #737373;
+
+  --nexus-accent: #38bdf8;
+  --nexus-accent-hover: #7dd3fc;
+  --nexus-accent-subtle: rgba(56, 189, 248, 0.2);
+
+  --nexus-valid: #34d399;
+  --nexus-valid-subtle: rgba(52, 211, 153, 0.2);
+  --nexus-in-review: #fbbf24;
+  --nexus-in-review-subtle: rgba(251, 191, 36, 0.2);
+  --nexus-blocked: #fb7185;
+  --nexus-blocked-subtle: rgba(251, 113, 133, 0.2);
+  --nexus-undetermined: #94a3b8;
+  --nexus-undetermined-subtle: rgba(148, 163, 184, 0.2);
+  --nexus-invalid: #f87171;
+  --nexus-invalid-subtle: rgba(248, 113, 113, 0.2);
+}
