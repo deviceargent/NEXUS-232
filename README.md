@@ -49,19 +49,19 @@ El proyecto está diseñado como un **monorepo de alta cohesión y bajo acoplami
 
 ```mermaid
 graph TD
-    subgraph UI ["Capa de Presentación (React 19 + Tailwind 4)"]
-        SHELL[Shell & Allotment Resizable Layout]
-        CANVAS[Theory Canvas (@xyflow/react)]
+    subgraph UI ["Presentacion - React 19 + Tailwind 4"]
+        SHELL["Shell - Allotment Resizable Layout"]
+        CANVAS["Theory Canvas - xyflow/react"]
         CHAT[Chat Agent Interface]
-        INSPECTOR[Inspector Epistémico]
+        INSPECTOR["Inspector Epistemico"]
         MONACO[Monaco LaTeX Editor]
-        PDFVIEW[PDF.js Preview Surface]
-        THREEVIEW[3D Viewer (Three.js / R3F)]
+        PDFVIEW["PDF.js Preview Surface"]
+        THREEVIEW["3D Viewer - Three.js + R3F"]
         MEDIA[Media Player Adapter]
-        ZUSTAND[Zustand 5.0 (Solo estado de interacción)]
+        ZUSTAND["Zustand 5.0 - Estado de interaccion"]
     end
 
-    subgraph APP ["Capa de Aplicación (@nexus/application)"]
+    subgraph APP ["Aplicacion - nexus/application"]
         PROJ_SRV[ProjectService]
         THEORY_SRV[TheoryService]
         GRAPH_SRV[GraphService]
@@ -71,25 +71,25 @@ graph TD
         AGENT_SRV[AgentService]
     end
 
-    subgraph CORE ["Dominio Puro (@nexus/core)"]
-        THEORY_DOM[TheoryNode & TheoryEdge]
-        COMPILER_DOM[ValidationCompiler & Invalidation Engine]
-        DOC_DOM[Document & Fragment Models]
-        RES_DOM[Resources & Anchors]
-        ID_DOM[ULID/UUID & Scientific Aliases]
+    subgraph CORE ["Dominio Puro - nexus/core"]
+        THEORY_DOM["TheoryNode + TheoryEdge"]
+        COMPILER_DOM["ValidationCompiler + Invalidation Engine"]
+        DOC_DOM["Document + Fragment Models"]
+        RES_DOM["Resources + Anchors"]
+        ID_DOM["ULID/UUID + Scientific Aliases"]
     end
 
-    subgraph BACKEND ["Backend de Escritorio (Tauri 2.12 + Rust)"]
-        SQLITE[(SQLite Relacional & Migraciones)]
-        LATEX_NATIVE[Compiler Adapter: pdflatex / xelatex]
+    subgraph BACKEND ["Backend de Escritorio - Tauri 2.12 + Rust"]
+        SQLITE[(SQLite Relacional + Migraciones)]
+        LATEX_NATIVE["Compiler Adapter - pdflatex + xelatex"]
         MPV_NATIVE[LibMpv Media IPC]
-        FS_NATIVE[Filesystem & Process Bridge]
+        FS_NATIVE["Filesystem + Process Bridge"]
     end
 
-    subgraph AI_LAYER ["Abstracción de Inteligencia Artificial (@nexus/agent)"]
+    subgraph AI_LAYER ["Inteligencia Artificial - nexus/agent"]
         PLANNER[Agent Planner Pipeline]
         TOOLS[12 Typed Tool Contracts]
-        PROVIDERS[Providers: Deterministic / OpenAI / Anthropic / Local]
+        PROVIDERS["Providers - Deterministic / OpenAI / Anthropic / Local"]
     end
 
     UI --> APP
