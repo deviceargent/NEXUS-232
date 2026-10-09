@@ -1,3 +1,7 @@
+> 🇪🇸 **Español** · 🇬🇧 [English](README.en.md)
+
+---
+
 # NEXUS-232 — Unified Scientific Theoretical Workspace
 
 [![React](https://img.shields.io/badge/React-19.3-blue.svg)](https://react.dev/)
